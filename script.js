@@ -1,13 +1,13 @@
         // Firebase Configuration
         const firebaseConfig = {
-  apiKey: "AIzaSyBaynxq3uG04HHz9X5Wc-zu9jWimAocVRk",
-  authDomain: "hiochat-b4.firebaseapp.com",
-  projectId: "hiochat-b4",
-  storageBucket: "hiochat-b4.firebasestorage.app",
-  messagingSenderId: "671564815148",
-  appId: "1:671564815148:web:6d0857df5b692121bf2a89"
-};
-    
+ apiKey: "AIzaSyAGLolJFvDvKA2zu79jYiyF_89C6nk5E-A",
+  authDomain: "hiochats.firebaseapp.com",
+  projectId: "hiochats",
+  storageBucket: "hiochats.firebasestorage.app",
+  messagingSenderId: "911409318219",
+  appId: "1:911409318219:web:50ea12713aa8a34d53c0ce",
+  measurementId: "G-TKMGCDWSHC"
+}; 
         // Cloudinary Configuration
         const cloudName = 'dy1fqwyap';
         const uploadPreset = 'HiOChat-B4';
@@ -615,4 +615,5 @@ audioPlayers.forEach((audioPlayer) => {
             if (event.target === overlay) {
                 closeVideo();
             }
+
         }
